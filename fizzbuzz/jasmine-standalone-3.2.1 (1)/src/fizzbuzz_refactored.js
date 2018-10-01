@@ -1,13 +1,13 @@
 function fizzbuzz(num) {
 switch (num) {
   case (num % 3 == 0):
-  return (fizz)
+  console.log("fizz")
   break;
   case (num % 5 == 0):
-  return (buzz)
+  console.log("buzz)"
   break;
   case (num % 3 == 0 && num % 5 == 0)
-  return (fizzbuzz)
+  console.log("fizzbuzz")
   }
 }
 fizzbuzz(100)
